@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y7Z-V3-t1B">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zzK-eI-y9s">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -29,15 +29,15 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5v2-hE-4Ub" kind="show" id="Hyt-V3-q4n"/>
+                                    <segue destination="5v2-hE-4Ub" kind="show" id="KRJ-dT-kwW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🦝Mapaches" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ">
                                 <rect key="frame" x="52" y="418" width="310" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ph1-wX-D3a"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="37"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
                                 <color key="textColor" name="BrandBlue"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -72,7 +72,7 @@
                             <constraint firstItem="y7D-jv-BlJ" firstAttribute="centerX" secondItem="H86-OM-sMN" secondAttribute="centerX" id="vNd-pq-rnh"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Xnm-II-3qd"/>
+                    <navigationItem key="navigationItem" id="NRC-Ha-qSL"/>
                     <connections>
                         <outlet property="titleLabel" destination="y7D-jv-BlJ" id="7U9-Ah-qfi"/>
                     </connections>
@@ -260,7 +260,7 @@
                             <constraint firstItem="7JT-7R-lw4" firstAttribute="top" secondItem="Mkq-A4-A98" secondAttribute="bottom" constant="-100" id="yL0-RW-8ad"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="2dn-YR-AsY"/>
+                    <navigationItem key="navigationItem" id="cAQ-Bj-brA"/>
                     <connections>
                         <outlet property="emailTextfield" destination="F21-w0-z4z" id="YUG-Hl-Rxj"/>
                         <outlet property="passwordTextfield" destination="abR-gz-opL" id="xCU-X2-hrx"/>
@@ -354,20 +354,20 @@
             <point key="canvasLocation" x="2942.0289855072465" y="134.59821428571428"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="wZ1-rB-reC">
+        <scene sceneID="Xgg-av-n7l">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y7Z-V3-t1B" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zzK-eI-y9s" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KVO-bS-dBq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fg0-dx-5gx">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Tim-3B-f4n" kind="relationship" relationship="rootViewController" id="tor-aC-nwv"/>
+                        <segue destination="Tim-3B-f4n" kind="relationship" relationship="rootViewController" id="G7P-TA-O3q"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YK9-Uk-2Yc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Szd-KM-nWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-86.956521739130437" y="134.59821428571428"/>
         </scene>
